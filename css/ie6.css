@@ -1,0 +1,22 @@
+
+body {overflow-y:visible;background-image:url(../images/bg-site-ie6.jpg)}
+
+/*-------HEADER-------*/
+#header {position:relative}
+#header-box {background-image:url(../images/bg-header-ie6.jpg)}
+#header li a {width:0}
+#header li a:hover {background-image:url(../images/bg-menu.gif)}
+#header-shadow, #music {display:none}
+
+/*-------MENU PAGE I.D.-------*/
+#stallions-colts .menu-stallions-colts, #mares-fillies .menu-mares-fillies, #foals .menu-foals, #sales .menu-sales, #news .menu-news, #contact .menu-contact {background-image:url(../images/bg-menu.gif)}
+
+/*-------FLOWER-------*/
+#flower {display:none}}
+
+/*-------SUB-HEADER-------*/
+#sub-header {margin-top:0}
+#sub-header-line-left {float:left;height:140px;width:1px;background:url(../images/bg-sub-header-line.png) no-repeat;margin:125px 0 0 -1px}
+#sub-header-line-right {float:right;height:140px;width:1px;background:url(../images/bg-sub-header-line.png) no-repeat;margin:125px -1px 0 0}
+#sub-header-line-left, #sub-header-line-right {display:none}
+

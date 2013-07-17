@@ -1,0 +1,35 @@
+                         /*8      888                                         
+                         888      888                                         
+                         888      888                                         
+ 8888b.  888d888 8888b.  88888b.  88888b.   .d88b.  888d888 .d8888b   .d88b.  
+    "88b 888P"      "88b 888 "88b 888 "88b d88""88b 888P"   88K      d8P  Y8b 
+.d888888 888    .d888888 888  888 888  888 888  888 888     "Y8888b. 88888888 
+888  888 888    888  888 888 d88P 888  888 Y88..88P 888          X88 Y8b.     
+"Y888888 888    "Y888888 88888P"  888  888  "Y88P"  888      88888P'  "Y888*/
+
+/* the humans responsible & colophon | humanstxt.org */
+
+/* TEAM */
+  Web Developer: Chris Vogt
+  Site: chris@knightmedianetworks.com
+  Location: Scottsdale, Arizona
+
+/* THANKS */
+  Names (& URL): 
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Software:
+	
+/* LICENSES */
+ /**
+  * Ajaxer v1.2.2 (22.01.2011), used for AJAX page navigation.
+  *
+  * To use this script you need to buy a license: http://codecanyon.net/item/ajaxer-easy-and-flexible-ajax-for-your-site/89374
+  *
+* Created by Stormbreaker
+*
+* This script includes Ben Alman's FREE hashchange plugin 
+* needed to support back button and history in older browsers
+*/

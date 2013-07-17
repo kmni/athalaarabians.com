@@ -1,0 +1,13 @@
+
+html {height:auto}
+
+body {overflow-y:auto}
+
+/*-------HEADER-------*/
+#header-shadow {margin:29px 0 0}
+
+/*-------SUB-HEADER-------*/
+#sub-header {padding-top:129px}
+
+/*-------CONTENT-------*/
+#content {filter:none;background:#a45802;min-height:600px}

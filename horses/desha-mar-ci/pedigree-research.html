@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="es-es"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+	<meta charset="utf-8">
+    <!-- InstanceBeginEditable name="meta" -->
+    <meta name="Description" content="Athala Arabians" />
+    <title>Athala Arabians</title>
+<!-- InstanceEndEditable -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <link rel="stylesheet" href="../../screen.css">
+    <!--[if IE 7]><link rel="stylesheet" href="css/ie7.css"><link rel="stylesheet" href="../css/ie7.css"><link rel="stylesheet" href="../../ie7.css"><![endif]-->
+    <!--[if IE 6]><link rel="stylesheet" href="css/ie6.css"><link rel="stylesheet" href="../css/ie6.css"><link rel="stylesheet" href="../../ie6.css"><![endif]-->
+    <!-- InstanceBeginEditable name="dochead" -->
+    
+    <!-- InstanceEndEditable -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script src="../../js/jquery.jplayer.min.js"></script>
+    <script src="../../js/ajax.js"></script>
+	<script type="text/javascript" src="../../js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../../js/jquery.galleriffic.js"></script>
+    <script type="text/javascript">//<![CDATA[
+$(document).ready(function(){var Playlist=function(instance,playlist,options){var self=this;this.instance=instance;this.playlist=playlist;this.options=options;this.current=0;this.cssId={jPlayer:"jquery_jplayer_",interface:"jp_interface_",playlist:"jp_playlist_"};this.cssSelector={};$.each(this.cssId,function(entity,id){self.cssSelector[entity]="#"+id+self.instance});if(!this.options.cssSelectorAncestor){this.options.cssSelectorAncestor=this.cssSelector.interface}$(this.cssSelector.jPlayer).jPlayer(this.options);$(this.cssSelector.interface+" .jp-previous").click(function(){self.playlistPrev();$(this).blur();return false});$(this.cssSelector.interface+" .jp-next").click(function(){self.playlistNext();$(this).blur();return false})};Playlist.prototype={displayPlaylist:function(){var self=this;$(this.cssSelector.playlist+" ul").empty();for(i=0;i<this.playlist.length;i++){var listItem=(i===this.playlist.length-1)?"<li class='jp-playlist-last'>":"<li>";listItem+="<a href='#' id='"+this.cssId.playlist+this.instance+"_item_"+i+"' tabindex='1'>"+this.playlist[i].name+"</a>";if(this.playlist[i].free){var first=true;listItem+="<div class='jp-free-media'>(";$.each(this.playlist[i],function(property,value){if($.jPlayer.prototype.format[property]){if(first){first=false}else{listItem+=" | "}listItem+="<a id='"+self.cssId.playlist+self.instance+"_item_"+i+"_"+property+"' href='"+value+"' tabindex='1'>"+property+"</a>"}});listItem+=")</span>"}listItem+="</li>";$(this.cssSelector.playlist+" ul").append(listItem);$(this.cssSelector.playlist+"_item_"+i).data("index",i).click(function(){var index=$(this).data("index");if(self.current!==index){self.playlistChange(index)}else{$(self.cssSelector.jPlayer).jPlayer("play")}$(this).blur();return false});if(this.playlist[i].free){$.each(this.playlist[i],function(property,value){if($.jPlayer.prototype.format[property]){$(self.cssSelector.playlist+"_item_"+i+"_"+property).data("index",i).click(function(){var index=$(this).data("index");$(self.cssSelector.playlist+"_item_"+index).click();$(this).blur();return false})}})}}},playlistInit:function(autoplay){if(autoplay){this.playlistChange(this.current)}else{this.playlistConfig(this.current)}},playlistConfig:function(index){$(this.cssSelector.playlist+"_item_"+this.current).removeClass("jp-playlist-current").parent().removeClass("jp-playlist-current");$(this.cssSelector.playlist+"_item_"+index).addClass("jp-playlist-current").parent().addClass("jp-playlist-current");this.current=index;$(this.cssSelector.jPlayer).jPlayer("setMedia",this.playlist[this.current])},playlistChange:function(index){this.playlistConfig(index);$(this.cssSelector.jPlayer).jPlayer("play")},playlistNext:function(){var index=(this.current+1<this.playlist.length)?this.current+1:0;this.playlistChange(index)},playlistPrev:function(){var index=(this.current-1>=0)?this.current-1:this.playlist.length-1;this.playlistChange(index)}};var audioPlaylist=new Playlist("2",[{name:"Athala King - AHA Presentation",mp3:"mp3/ahapresentation.mp3",},{name:"Athala King - Catty Simple Thing",m4a:"mp3/cattysimplething.m4a",},{name:"Athala King - Cane1",m4a:"mp3/cane1.mp3",},{name:"Athala King - Martini Party",m4a:"mp3/martiniparty.m4a",},{name:"Athala King - State of Mind",m4a:"mp3/stateofmind.m4a",},{name:"Athala King - Watch As I Listen",m4a:"mp3/watchasilisten.m4a",}],{ready:function(){audioPlaylist.displayPlaylist();audioPlaylist.playlistInit(true)},ended:function(){audioPlaylist.playlistNext()},play:function(){$(this).jPlayer("pauseOthers")},swfPath:"js",supplied:"m4a, mp3"})});
+//]]>
+</script>
+
+    <!-- InstanceParam name="body-id" type="text" value="mares-fillies" -->
+</head>
+<body id="mares-fillies">
+<div id="header">
+	<div id="header-box">
+		<a id="logo" href="../../index.php"></a>
+		<ul id="nav">
+			<li><a id="menu-links" href="../../links.html">Links</a></li>
+			<li><a id="menu-contact" href="../../contact.html">Contact</a></li>
+			<li><a id="menu-news" href="../../news.html">News</a></li>
+			<li><a id="menu-sales" href="../../sales.html">Sales</a></li>
+			<li><a id="menu-mares-fillies" href="../../mares-fillies.html">Mares/Fillies</a></li>
+			<li><a id="menu-stallions-colts" href="../../stallions-colts.html">Stallions/Colts</a></li>
+			<li><a id="menu-home" href="../../index.php">Home</a></li>
+		</ul>
+		<div id="music">
+		</div>
+		<!-- temporarily disabled for conflicting with player <div id="header-shadow">
+		</div> -->
+	</div>
+</div>
+<div id="sub-header">
+	<div id="sub-header-line-left">
+	</div>
+	<div id="sub-header-line-right">
+	</div>
+  <div id="player-holder">
+  		<div id="jquery_jplayer_2" class="jp-jplayer"></div> 
+        <div class="jp-audio"> 
+            <div class="jp-type-playlist"> 
+                <div id="jp_interface_2" class="jp-interface"> 
+                    <ul class="jp-controls"> 
+                        <li><a href="#" class="jp-play" tabindex="1">play</a></li> 
+                        <li><a href="#" class="jp-pause" tabindex="1">pause</a></li> 
+                        <li><a href="#" class="jp-stop" tabindex="1">stop</a></li> 
+                        <li><a href="#" class="jp-mute" tabindex="1">mute</a></li> 
+                        <li><a href="#" class="jp-unmute" tabindex="1">unmute</a></li> 
+                        <li><a href="#" class="jp-previous" tabindex="1">previous</a></li> 
+                        <li><a href="#" class="jp-next" tabindex="1">next</a></li> 
+                    </ul> 
+                    <div class="jp-progress"> 
+                        <div class="jp-seek-bar"> 
+                            <div class="jp-play-bar"></div> 
+                        </div><!-- end div.jp-seek-bar -->
+                    </div> 
+                    <div class="jp-volume-bar"> 
+                        <div class="jp-volume-bar-value"></div> 
+                    </div><!-- end div.jp-volume-bar -->
+                    <div class="jp-current-time"></div> 
+                    <div class="jp-duration"></div> 
+                </div><!-- end div#jp_interface_2 -->
+                <div id="jp_playlist_2" class="jp-playlist"> 
+                  <ul> 
+                        <!-- The method Playlist.displayPlaylist() uses this unordered list --> 
+                        <li></li> 
+                  </ul> 
+              	</div><!-- end div#jp_playlist_2 -->
+          	</div><!-- end div.jp-type-playlist -->
+        </div> 
+	</div><!-- end div#player-holder -->
+	<a href='#' class='basic'><h1>
+    <!-- InstanceBeginEditable name="heading" -->heading<!-- InstanceEndEditable -->
+    </h1></a>
+</div>
+    <div id="content">
+        <div id="inner-content">
+        <!-- InstanceBeginEditable name="content" -->
+  <p><strong>DESHA MAR-CI</strong></p>
+  <p>DESHA MAR-CI is the only breeding  age daughter of National Champion producer C STARLITE BEY in America. She is a  full sister to regional halter champion and 2010 Las Vegas Arabian Breeders  World Cup Champion Stallion ATH STAARWAN and to South African Supreme National  Champion Mare, Scottsdale and regional halter winner MARBEY DESHA. DESHA MAR-CI  is also a 3/4 sister to Canadian National Champion Stallion and National winner  sire STAR GHAZAL and to South African National Champion Colt and U.S. Reserve  National Champion Junior and Senior Stallion *EKS BEY AL GAZAL. Her pedigree  features lines to 6 U.S. National Champion Stallions: BAY ABI++ (two crosses),  *BASK++ (two crosses), RAFFON++, GAI PARADA+++/, *ALADDINN and FAME VF+/<br />
+    <br />
+  </p>
+  <p>DESHA MAR-CI is by World Champion Stallion and twice U.S. National Junior  Champion Stallion *MARWAN AL SHAQAB, sire of 61 North American National winners  through 2010 as well as a sire of international champions in the Middle East  and Europe.? His top winning get include  World Gold Champion Stallion? BAANDEROS,  World Bronze Champion Stallion MARQUIS CAHR, World Junior Champion Colt and  U.S. Top Ten Sweepstakes Colt MARAJJ, World, European and All Nations Cup  Junior Champion Colt ABHA QATAR, U.S. Reserve National Champion Junior Mare and  World Junior Champion Filly *ABHA PALMA, World Junior Champion Filly NAJDAH AL  ZOBAIR, Nations Cup Bronze Champion Colt and Qatar International Gold Champion  Colt KHAHIL AL SHAQAB, Middle East Gold Champion Filly SARA AL MOHAMADIA, World  Reserve Junior Champion Filly and U.S. National Champion Sweepstakes Filly  PRINCESS OF MARWAN, Spanish National Champion Stallion ABHA MAHDI, U.S.  National Champion Junior Stallion and Sweepstakes Colt ARIA IMPRESARIO, U.S  National Champion Futurity Colt and Reserve National Champion Junior Stallion  MARHAABAH, U.S. and Canadian National Champion Futurity Filly STAR OF MARWAN,  Canadian National Champion Futurity Colt RHR MARCEDES, Canadian National  Champion Futurity Colt and U. S. Reserve National Champion Futurity Colt NYN  HISANI, U.S. Reserve National Champion Sweepstakes Colt WH PATRIOT, U.S.  Reserve National Champion Junior Mare *ABHA MYRA, U.S Reserve National Champion  Sweepstakes Colt and World Silver Champion Stallion QR MARC, and U.S. National  Champion Sweepstakes Filly GODDESS OF MARWAN. In 2010. the World Gold, Silver  and Bronze Champion Stallions were all sons of *MARWAN AL SHAQAB and their  titles represented the second time they had won a World Championship! *MARWAN  AL SHAQAB sons who have sired National Champions include SELKET MARQUE, QR  MARC, MARAJJ and NYN HISANI, while his daughter ABHA MUDIRA produced 2010 U.S.  National Champion Junior Mare *ABHA QALAMS.<br />
+    <br />
+  </p>
+  <p>*MARWAN  AL SHAQAB is by World Champion Stallion and U.S. Reserve National Champion  Stallion *GAZAL AL SHAQAB, a sire and grandsire of National Champions  worldwide. His other National Champion get include STAR GHAZAL, World Champion  Mare, U.S. National Champion Junior Mare and European Champion Filly  *PIANISSIMA and U.S. National Champion Junior Mare, European Junior Champion  Mare and Polish National Champion Mare *EMANDORIA, Polish Reserve National  Champion Mare WILDA,? Polish Reserve  National Champion Stallion DRABANT, multi-National Champion Dressage *TA  MONET+/, U.S. National Champion Sweepstakes Colt NW SIENSEI, U.S. Reserve  National Champion Stallion AOTH BELLISSIMO DPA, Polish National Champion Mare  and U.S. Top Ten Junior Mare *PINGA, and Canadian National Champion Futurity  Colt BRIXX IA.? *GAZAL AL SHAQAB  is by the straight Egyptian U.S. Top Ten Stallion ANAZA EL FARID.? ANAZA EL FARID is by U.S. Reserve National  Champion Stallion RUMINAJA ALI, sire of 13 National winners including U.S. and  Canadian National Champion Stallion ALI JAMAAL. His dam BINT DEENAA also  produced his full brothers, Kreuth International Senior Champion Stallion and  National Champion sire ANAZA EL NIZR and U.S. Top Ten Futurity Colt and  National Champion sire ANAZA BAY SHAHH, a sire of National winners in Europe  and Australia, and his maternal brother, National winner sire IBN EL MAREEKH.  *GAZAL AL SHAQAB is out of U.S. National Champion Mare KAJORA, dam of 7  champions including National Champions in the Middle East, North America, and  Europe.<br />
+    <br />
+  </p>
+  <p>*MARWAN  AL SHAQAB is out of Canadian National Champion Futurity Filly, U.S. Reserve  National Champion Western Pleasure Junior Horse and Qatar Reserve National  Champion Mare LITTLE LIZA FAME. She is also the dam of regional halter winner  and National Champion sire GW MAGNETIC. LITTLE LIZA FAME is a 3/4 sister to  regional halter winner JK AMADEUS, a sire of National winners in halter and  performance including U.S. National Champion Mare AALUSIVE BEY.? LITTLE LIZA FAME is by U.S. National Champion  Stallion FAME VF+ FAME VF+ has sired over 150 champions and 83 National  winners, including National Champions in halter National Champions in western  pleasure and a multi-National Champion in dressage and hunt pleasure FAMES  NIGHT FEVER. 77 FAME VF+ get have produced National winners through 2010.</p>
+  <p>DESHA MAR-CI is out of the  excellent producer C STARLITE BEY, dam of National Champion STAR GHAZAL (a sire  of 2010 U.S. National winners in halter and hunt pleasure), of STARBRITE BEY  (dam of multi-National Champion *EKS BEY AL GAZAL), of National Champion MARBEY  DESHA, of Arabian Breeders World Cup Champion STAARWAN, and of successful  endurance horse BEY PAREE.<br />
+    <br />
+  </p>
+  <p>C STARLITE BEY is by U.S.  National Champion Futurity Colt RAY DOR ECHO, a sire of regional champions in  halter and sport horse under saddle and class A champions in hunt pleasure,  western pleasure and country pleasure. His daughter TOUCHD BYAN ANGEL is the  dam of three times National halter winner COLOR ME ANGEL. RAY DOR ECHO is by six-time National winner ALADDINN  ECHO, whose top ten titles in halter were won under many different judges in  the U.S. and Canada. ALADDINN ECHO has sired 8 National winners in halter and  reining including U.S. and Canadian National Champion Stallion ECHO MAGNIFFICOO,  sire of 53 National winners including National Champions in halter,  hunter over fences, hunter hack, jumper, dressage and top ten winners in hint  pleasure and English sidesaddle. 31 ECHO MAGNIFFICOO get have produced National  winners through 2010. Their offspring include National Champions in halter,  western pleasure and hunt pleasure and top ten winners in country pleasure. <br />
+    <br />
+  </p>
+  <p>?ALADDINN ECHO is  a son of U.S. and Swedish National Champion Stallion *ALADDINN, who has sired  71 National winners. He remains the only stallion ever to sire 4 U.S. National  Champion Stallions. ALADDINN ECHO?s dam GAAMARA produced 6 champions, 5 of them  in halter and one in reining (then called stock horse). Her sire GAMAAR is a  superb broodmare sire with 17 get who have produced National winners including  CHANTILLY ROSE (dam of 6 champions, 5 of them National winners).? </p>
+  <p>RAY DOR ECHO is out of RAY-DOR GALIGAI, also dam of RAY  DOR BASK, sire of U.S. Reserve National Champion Gelding WT VALOR and U.S. Top  Ten Trail HARABI SUGAR RAY. She is by U.S. National Champion Stallion  and U.S. and Canadian National Champion Pleasure Driving GAI PARADA+++/, sire  of 20 National winners and 37 producers of National winners. Her dam, champion  producer GAI GALI, is a paternal sister to U.S. National Champion Mare JON SAN  JUDIZON and a maternal sister to Canadian National Champion Stallion GAI  CHAMPION. Her sire GALIZON is a U.S. National Champion Stallion and her fam  GA-GAJALA produced 3 National winners.<br />
+    <br />
+  </p>
+  <p>C STARLITE BEY is out of MOONLITE  BEY, dam of 3 champions: multi-regional halter champion and champion sire  NOUVEAU RICHE and multi-halter champion MONTREAUX (both full brothers to C  STARLITE BEY) and halter and hunt pleasure champion ECHO BEY RF (a 3/4 brother  to C STARLITE BEY). MOONLITE BEY is a full sister to SM SAHARA BEY, all of  whose offspring are champions and two are regional winners. She is also a full  sister to halter and hunt pleasure champion BAGDAD BY THE BEY, sire of 4  National winners in halter and hunt pleasure including U.S. National Champion  Half-Arabian Futurity Gelding WD GENTLEMAN GEM+++/. </p>
+  <p><br />
+  MOONLITE BEY is by U.S. Reserve  National Champion Stallion BEY SHAH+ (sire  of 115 National winners), who was until his death the breed's leading living  sire of halter champions. Her dam QUANDO also produced U.S. Top Ten  Half-Arabian Hunt Pleasure and multi-regional halter champion COMMANDERS  SECRET. QUANDO is 3/4 Egyptian and is a granddaughter of World and National  Champion sire *TUHOTMOS and National winner sire EL HADIYI.</p>
+  <p>&nbsp;</p>
+<p>Written by: <a href="http://www.arlenemagid.com/" target="_blank">Arlene Magid</a></p>
+<!-- InstanceEndEditable -->
+    </div><!-- end div#inner-content -->
+        </div><!-- end div#content -->
+<div id="footer">
+	<div>
+		<ul>
+			<li><a href="../../index.html">Home</a></li>
+			<li>
+			\ </li>
+			<li><a href="../../stallions-colts.html">Stallions/Colts</a></li>
+			<li>
+			\ </li>
+			<li><a href="../../mares-fillies.html">Mares/Fillies</a></li>
+			<li>
+			\ </li>
+			<li><a href="../../sales/index.html">Sales</a></li>
+			<li>
+			\ </li>
+			<li><a href="../../news.html">News</a></li>
+			<li>
+			\ </li>
+			<li><a href="../../contact.html">Contact</a></li>
+			<li>
+			\ </li>
+			<li><a href="../../index.html">Music</a></li>
+		</ul>
+		<p>
+			designed by <a href="http://www.arabhorse.com">arabhorse</a>
+		</p>
+		<form action="http://www.google.com/cse" id="cse-search-box">
+			<input type="hidden" name="cx" value="003278711014832530424:damj6ubw9rg"/>
+			<input type="hidden" name="ie" value="UTF-8"/>
+			<input type="text" name="q" size="30"/>
+			<input type="submit" name="sa" value="Search"/>
+		</form>
+	</div>
+</div>
+<div id="flower">
+	<a href="../../index.html"></a>
+</div>
+    <!-- InstanceBeginEditable name="scriptcalls" -->
+    <script src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+	<script type='text/javascript' src='../../js/jquery.simplemodal.js'></script>
+	<script type='text/javascript' src='../../js/basic.js'></script>
+    <!-- InstanceEndEditable -->
+	<script type="text/javascript">
+		$("#menu-home").attr("href", "page_router.php?home");
+		$("#menu-links").attr("href", "page_router.php?links");
+		$("#menu-contact").attr("href", "page_router.php?contact");
+		$("#menu-stallions-colts").attr("href", "page_router.php?stallions-colts");
+		$("#menu-mares-fillies").attr("href", "page_router.php?mares-fillies");
+		$("#menu-news").attr("href", "page_router.php?news");
+		$("#menu-sales").attr("href", "page_router.php?sales");
+	</script>
+</body>
+<!-- InstanceEnd --></html>

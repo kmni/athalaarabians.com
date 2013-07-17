@@ -1,0 +1,38 @@
+/* Jamie did this as a guide, it should be customized on a site-by-site basis */
+
+#facebook p {
+    padding-right: 10px;
+    width: 678px;
+}
+#facebook .header {
+	clear: both;
+	float: left;
+	padding-right: 10px;
+	width: 100px;
+}
+#facebook li {
+    border-bottom: 1px solid #000000;
+    list-style: none outside none;
+    min-height: 110px;
+    padding: 25px 0;
+}
+#facebook_albums li {
+    float: left;
+    height: 300px;
+    list-style: none outside none;
+    padding: 0 15px;
+    width: 180px;
+}
+#facebook_albums img {
+	display: block;
+}
+#facebook_albums .header {
+	display: none;
+}
+#facebook_albums {
+	clear: both;
+	padding-left: 50px;
+}
+#facebook_albums a {
+    font-weight: bold;
+}

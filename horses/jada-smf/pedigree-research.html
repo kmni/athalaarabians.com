@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="es-es"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+	<meta charset="utf-8">
+    <!-- InstanceBeginEditable name="meta" -->
+    <meta name="Description" content="Athala Arabians" />
+    <title>Athala Arabians</title>
+<!-- InstanceEndEditable -->
+    <!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <link rel="stylesheet" href="../../screen.css">
+    <!--[if IE 7]><link rel="stylesheet" href="css/ie7.css"><link rel="stylesheet" href="../css/ie7.css"><link rel="stylesheet" href="../../ie7.css"><![endif]-->
+    <!--[if IE 6]><link rel="stylesheet" href="css/ie6.css"><link rel="stylesheet" href="../css/ie6.css"><link rel="stylesheet" href="../../ie6.css"><![endif]-->
+    <!-- InstanceBeginEditable name="dochead" -->
+    
+    <!-- InstanceEndEditable -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script src="../../js/jquery.jplayer.min.js"></script>
+    <script src="../../js/ajax.js"></script>
+	<script type="text/javascript" src="../../js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../../js/jquery.galleriffic.js"></script>
+    <script type="text/javascript">//<![CDATA[
+$(document).ready(function(){var Playlist=function(instance,playlist,options){var self=this;this.instance=instance;this.playlist=playlist;this.options=options;this.current=0;this.cssId={jPlayer:"jquery_jplayer_",interface:"jp_interface_",playlist:"jp_playlist_"};this.cssSelector={};$.each(this.cssId,function(entity,id){self.cssSelector[entity]="#"+id+self.instance});if(!this.options.cssSelectorAncestor){this.options.cssSelectorAncestor=this.cssSelector.interface}$(this.cssSelector.jPlayer).jPlayer(this.options);$(this.cssSelector.interface+" .jp-previous").click(function(){self.playlistPrev();$(this).blur();return false});$(this.cssSelector.interface+" .jp-next").click(function(){self.playlistNext();$(this).blur();return false})};Playlist.prototype={displayPlaylist:function(){var self=this;$(this.cssSelector.playlist+" ul").empty();for(i=0;i<this.playlist.length;i++){var listItem=(i===this.playlist.length-1)?"<li class='jp-playlist-last'>":"<li>";listItem+="<a href='#' id='"+this.cssId.playlist+this.instance+"_item_"+i+"' tabindex='1'>"+this.playlist[i].name+"</a>";if(this.playlist[i].free){var first=true;listItem+="<div class='jp-free-media'>(";$.each(this.playlist[i],function(property,value){if($.jPlayer.prototype.format[property]){if(first){first=false}else{listItem+=" | "}listItem+="<a id='"+self.cssId.playlist+self.instance+"_item_"+i+"_"+property+"' href='"+value+"' tabindex='1'>"+property+"</a>"}});listItem+=")</span>"}listItem+="</li>";$(this.cssSelector.playlist+" ul").append(listItem);$(this.cssSelector.playlist+"_item_"+i).data("index",i).click(function(){var index=$(this).data("index");if(self.current!==index){self.playlistChange(index)}else{$(self.cssSelector.jPlayer).jPlayer("play")}$(this).blur();return false});if(this.playlist[i].free){$.each(this.playlist[i],function(property,value){if($.jPlayer.prototype.format[property]){$(self.cssSelector.playlist+"_item_"+i+"_"+property).data("index",i).click(function(){var index=$(this).data("index");$(self.cssSelector.playlist+"_item_"+index).click();$(this).blur();return false})}})}}},playlistInit:function(autoplay){if(autoplay){this.playlistChange(this.current)}else{this.playlistConfig(this.current)}},playlistConfig:function(index){$(this.cssSelector.playlist+"_item_"+this.current).removeClass("jp-playlist-current").parent().removeClass("jp-playlist-current");$(this.cssSelector.playlist+"_item_"+index).addClass("jp-playlist-current").parent().addClass("jp-playlist-current");this.current=index;$(this.cssSelector.jPlayer).jPlayer("setMedia",this.playlist[this.current])},playlistChange:function(index){this.playlistConfig(index);$(this.cssSelector.jPlayer).jPlayer("play")},playlistNext:function(){var index=(this.current+1<this.playlist.length)?this.current+1:0;this.playlistChange(index)},playlistPrev:function(){var index=(this.current-1>=0)?this.current-1:this.playlist.length-1;this.playlistChange(index)}};var audioPlaylist=new Playlist("2",[{name:"Athala King - AHA Presentation",mp3:"mp3/ahapresentation.mp3",},{name:"Athala King - Catty Simple Thing",m4a:"mp3/cattysimplething.m4a",},{name:"Athala King - Cane1",m4a:"mp3/cane1.mp3",},{name:"Athala King - Martini Party",m4a:"mp3/martiniparty.m4a",},{name:"Athala King - State of Mind",m4a:"mp3/stateofmind.m4a",},{name:"Athala King - Watch As I Listen",m4a:"mp3/watchasilisten.m4a",}],{ready:function(){audioPlaylist.displayPlaylist();audioPlaylist.playlistInit(true)},ended:function(){audioPlaylist.playlistNext()},play:function(){$(this).jPlayer("pauseOthers")},swfPath:"js",supplied:"m4a, mp3"})});
+//]]>
+</script>
+
+    <!-- InstanceParam name="body-id" type="text" value="mares-fillies" -->
+</head>
+<body id="mares-fillies">
+<div id="header">
+	<div id="header-box">
+		<a id="logo" href="../../index.php"></a>
+		<ul id="nav">
+			<li><a id="menu-links" href="../../links.html">Links</a></li>
+			<li><a id="menu-contact" href="../../contact.html">Contact</a></li>
+			<li><a id="menu-news" href="../../news.html">News</a></li>
+			<li><a id="menu-sales" href="../../sales.html">Sales</a></li>
+			<li><a id="menu-mares-fillies" href="../../mares-fillies.html">Mares/Fillies</a></li>
+			<li><a id="menu-stallions-colts" href="../../stallions-colts.html">Stallions/Colts</a></li>
+			<li><a id="menu-home" href="../../index.php">Home</a></li>
+		</ul>
+		<div id="music">
+		</div>
+		<!-- temporarily disabled for conflicting with player <div id="header-shadow">
+		</div> -->
+	</div>
+</div>
+<div id="sub-header">
+	<div id="sub-header-line-left">
+	</div>
+	<div id="sub-header-line-right">
+	</div>
+  <div id="player-holder">
+  		<div id="jquery_jplayer_2" class="jp-jplayer"></div> 
+        <div class="jp-audio"> 
+            <div class="jp-type-playlist"> 
+                <div id="jp_interface_2" class="jp-interface"> 
+                    <ul class="jp-controls"> 
+                        <li><a href="#" class="jp-play" tabindex="1">play</a></li> 
+                        <li><a href="#" class="jp-pause" tabindex="1">pause</a></li> 
+                        <li><a href="#" class="jp-stop" tabindex="1">stop</a></li> 
+                        <li><a href="#" class="jp-mute" tabindex="1">mute</a></li> 
+                        <li><a href="#" class="jp-unmute" tabindex="1">unmute</a></li> 
+                        <li><a href="#" class="jp-previous" tabindex="1">previous</a></li> 
+                        <li><a href="#" class="jp-next" tabindex="1">next</a></li> 
+                    </ul> 
+                    <div class="jp-progress"> 
+                        <div class="jp-seek-bar"> 
+                            <div class="jp-play-bar"></div> 
+                        </div><!-- end div.jp-seek-bar -->
+                    </div> 
+                    <div class="jp-volume-bar"> 
+                        <div class="jp-volume-bar-value"></div> 
+                    </div><!-- end div.jp-volume-bar -->
+                    <div class="jp-current-time"></div> 
+                    <div class="jp-duration"></div> 
+                </div><!-- end div#jp_interface_2 -->
+                <div id="jp_playlist_2" class="jp-playlist"> 
+                  <ul> 
+                        <!-- The method Playlist.displayPlaylist() uses this unordered list --> 
+                        <li></li> 
+                  </ul> 
+              	</div><!-- end div#jp_playlist_2 -->
+          	</div><!-- end div.jp-type-playlist -->
+        </div> 
+	</div><!-- end div#player-holder -->
+	<a href='#' class='basic'><h1>
+    <!-- InstanceBeginEditable name="heading" -->heading<!-- InstanceEndEditable -->
+    </h1></a>
+</div>
+    <div id="content">
+        <div id="inner-content">
+        <!-- InstanceBeginEditable name="content" -->
+  <p><strong>JADA SMF</strong></p>
+  <p>&nbsp;</p>
+  <p>JADA  SMF is a 2010 Egyptian Event Top Ten Egyptian Breeders Challenge and Yearling  Futurity Filly.? Her outstanding pedigree  is linebred to the great mare *MAGIDAA, with 5 crosses to her, 3 of them  through her top producing daughter BINT MAGIDAA, one of the all time leading  Egyptian broodmares with 7 champion offspring. She is also linebred to U.S.  National Champion Futurity Colt and National Champion sire NABIEL+/, with 2  lines to him, and 3 lines to *SULTANN (to whom she has 3 lines), sire of U.S  National Champion Stallion and English Pleasure *ASADD++ and multi-National  Champion Park *SAKR+++.</p>
+  <p><br />
+  JADA  SMF is by MAJESTIC NOBLE SMF, whose Egyptian Event titles include Egyptian  Breeders Challenge Reserve Champion Colt and First Place Extended Specialty  Stallion. He has been on the Egyptian Event Leading Halter Sires list for the  last three years in a row (2008-2010) and his get include three times Egyptian  Event halter winner HADARAH SMF, Egyptian Breeders Challenge Top Ten Filly  SYBELLA SMF, and four times Egyptian Event halter winner SYMBOLIC SMF.? His get have been exported to Kuwait, Mexico  and New Zealand.</p>
+  <p>&nbsp;</p>
+  <p>MAJESTIC  NOBLE SMF is by regional halter winner and National winner sire MARQUIS I. His  get include regional halter winners SUNDANCE KA (also an Egyptian Event four  time top ten halter winner) and REMARQABLE KA as well as 2009 Canadian Top Ten  Two Year Old Colt EL MASRI BJ. MARQUIS I ranked as a leading halter sire at the  Egyptian Event every year from 2002-2006. His daughter ISABELLA KA is the dam  of 2008 Egyptian Event Reserve Junior Champion Filly NAADIRAH KA.</p>
+  <p>MARQUIS  I is by MAKHSOUS, sire of 8 National winners.?  His National winners in halter include U.S. Top Ten Sweepstakes Colt and  Futurity Colt MAKHNIFICENT KA (the only straight Egyptian horse to win both  those titles), Canadian Reserve National Champion Futurity Colt ZAARIF and U.S.  National Champion Futurity Colt KURAAFI. MAKHSOUS? National winners in  performance are U.S. Top Ten Hunt Pleasure Futurity BODACIOUS KA multi- U.S.  Top Ten Dressage KA FIRST KNIGHT++/ twice U.S. National Champion Western  Pleasure Walk/Trot BINT HADDIYAH+/, and multi-U.S. National Champion Working  Cow Horse AOTR ZIBA JALISA+.? MAKHSOUS  get have produced National winners in North America and the Middle East. </p>
+  <p>&nbsp;</p>
+  <p>MARQUIS  I is out of ANTIGUA DANCE, dam of 4 champions. Her other champions are halter  champion and National winner sire CALYPSO DANCE (a fill brother to MARQUIS I),  Region 11 Champion Mare and Region 6 Reserve Champion Mare SIMPLY SEDUCTIVE,  and Egyptian Event Futurity Champion DANCE DIVA (dam of 2007 Israeli Egyptian  Event Reserve Junior Champion Filly SHAI DIVA SMF).? ANTIGUA DANCE is a paternal sister to multi-European  halter champion ZT SAHJAT and to National winner producers ZT JOSSNY (dam  of? 2008 United Arab Emirates Senior  Champion Mare SF HOSSANA),? SONBOLHAS  MUSIC (dam of 2008 Egyptian Classic Cup Reserve Champion Mare and Emerald  Egyptian Event Champion? Mare and Best in  Show? HAMRAS MUSINA and of 1999 German  Reserve Junior Champion Colt, 2006 Italian Egyptian Event Reserve Champion  Stallion and 2008 Egyptian National Champion Stallion? HAMRA ALIGANCE), CRYSTAL MELODY (dam of 2005  U.S. Top Ten Gelding AMBRES MALACHI) and JEWELS JASMINE (dam of 2004 U.S. Top  Ten Sport Horse Mare NF MIRABELLA). </p>
+  <p>&nbsp;</p>
+  <p>MAJESTIC  NOBLE SMF is out of NAGDA, dam of 3 Egyptian Event halter winners NAGDA?s  daughter ALIDAARLIN is the dam of Egyptian Event Leading Halter Sire ALI BARBA.  NAGDA?s son STERLING VISION has been exported to Europe, where he won the class  for stallions 10 and Over at the 2008 Egyptian Event Europe and was named 2008  Asil Cup Reserve Senior Champion Stallion.??  NAGDA is a? paternal sister to 15  National winners including U.S. Reserve National Champion Mare AOTH RA TIMRA+,  multi-National Champion Dressage AF THE MAGICIAN+/, World Reserve Champion Colt  SABIELL and Middle East Champion Stallion ROYAL MIKHIEL. ALLIKAD is by U.S.  National Champion Futurity Colt NABIEL+/, whose get have produced National  Champions in halter, western pleasure, hunt over fences and jumping.</p>
+  <p>&nbsp;</p>
+  <p>JADA  SMF is out of JADE LOTUS, the 2009 Egyptian Event Reserve Supreme Champion Mare  and a class A halter AOTH champion.? She  is a paternal sister to Egyptian Event Champion Mare ATH and regional halter  champion FIRE QUEEN SMF, Egyptian Event Champion Gelding ATH and multi-regional  halter winner SARJAH SMF.JADE LOTUS is by ALI SAROUKH, sire of 4 regional  halter winners. He has been named an Egyptian Event Leading Halter Sire nine  times and a Leading Halter and Performance sire twice. ALI SAROUKH is by the unforgettable  RUMINAJA ALI, U.S. National Champion  Futurity Colt and U.S. Reserve National Champion Stallion. He has sired 11  National winners and 19 producers of National winners. This is the most  important? Egyptian sire line  internationally today. </p>
+  <p>&nbsp;</p>
+  <p>ALI  SAROUKH is out of regional halter winner and Egyptian Event World Class winner GLORIETASAYONAARA,  dam of 3 Egyptian Event halter winners including SHAIKEEL (two top ten wins),  World Class winner and Most Classic Head winner SHABOURA (herself a Leading Dam  at the Event in 2009), and SAMURA (dam of 4 winners and twice a Leading Dam, in  2002 and 2008,? whose daughter SYBELLA  SMF is an Egyptian Breeders Challenge Champion and was exported to Saudi Arabia  after her win). GLORIETASAYONAARA is a paternal sister to U.S. Top Ten Futurity  Filly and National winner producer GLORIETA MAARQESA and a maternal sister to  GLORIETA SERIMA whose daughter ALIDARRA has produced more winning offspring in  Egypt than any other mare.</p>
+  <p>&nbsp;</p>
+  <p>JADE  LOTUS is out of Egyptian Event Top Ten World Class Halter and multi-class A  halter champion IMDALS JADE, also dam of Most Classic winner CLASSIC JADE and  of Egyptian Breeders Challenge Top Ten Colt JADE EMPEROR. She is by World  Champion Stallion, U.S. Reserve National Champion Stallion and National  Champion sire IMPERIAL IMDAL+ (also the grandsire of World Champion Stallion  *AL LAHAB and twice World Reserve Champion Stallion IMPERIAL BAAREZ).? IMDALS JADE is out of National Champion  producer SHAAMISA MYSTIQUE, dam of 4 Egyptian Event winners including First  Place World Class Halter EL ALLAH ABU, Reserve Champion Yearling Futurity Colt  WDA THE SILVERADO, and Reserve Junior Champion Colt ENTEBBE CA, later named  2004 Israeli Reserve National Champion Stallion. SHAAMISA MYSTIQUE is a full  blood sister to SF MOON MAIDEN, dam of U.S. and Canadian Top Ten Futurity Filly  MOON STORM MH and U.S. and Canadian National Champion Stallion AOTH ABRAXAS  HALIMAAR.</p>
+  <p>&nbsp;</p>
+  <p>Written by: <a href="http://www.arlenemagid.com/" target="_blank">Arlene Magid</a></p>
+<!-- InstanceEndEditable -->
+    </div><!-- end div#inner-content -->
+        </div><!-- end div#content -->
+<div id="footer">
+	<div>
+		<ul>
+			<li><a href="../../index.html">Home</a></li>
+			<li>
+			\ </li>
+			<li><a href="../../stallions-colts.html">Stallions/Colts</a></li>
+			<li>
+			\ </li>
+			<li><a href="../../mares-fillies.html">Mares/Fillies</a></li>
+			<li>
+			\ </li>
+			<li><a href="../../sales/index.html">Sales</a></li>
+			<li>
+			\ </li>
+			<li><a href="../../news.html">News</a></li>
+			<li>
+			\ </li>
+			<li><a href="../../contact.html">Contact</a></li>
+			<li>
+			\ </li>
+			<li><a href="../../index.html">Music</a></li>
+		</ul>
+		<p>
+			designed by <a href="http://www.arabhorse.com">arabhorse</a>
+		</p>
+		<form action="http://www.google.com/cse" id="cse-search-box">
+			<input type="hidden" name="cx" value="003278711014832530424:damj6ubw9rg"/>
+			<input type="hidden" name="ie" value="UTF-8"/>
+			<input type="text" name="q" size="30"/>
+			<input type="submit" name="sa" value="Search"/>
+		</form>
+	</div>
+</div>
+<div id="flower">
+	<a href="../../index.html"></a>
+</div>
+    <!-- InstanceBeginEditable name="scriptcalls" -->
+    <script src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+	<script type='text/javascript' src='../../js/jquery.simplemodal.js'></script>
+	<script type='text/javascript' src='../../js/basic.js'></script>
+    <!-- InstanceEndEditable -->
+	<script type="text/javascript">
+		$("#menu-home").attr("href", "page_router.php?home");
+		$("#menu-links").attr("href", "page_router.php?links");
+		$("#menu-contact").attr("href", "page_router.php?contact");
+		$("#menu-stallions-colts").attr("href", "page_router.php?stallions-colts");
+		$("#menu-mares-fillies").attr("href", "page_router.php?mares-fillies");
+		$("#menu-news").attr("href", "page_router.php?news");
+		$("#menu-sales").attr("href", "page_router.php?sales");
+	</script>
+</body>
+<!-- InstanceEnd --></html>
