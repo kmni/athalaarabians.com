@@ -99,6 +99,8 @@ include 'blocks/header-inner.php';
 					</p>
 					
 					<ul class="info">
+                   	<li> Silver Sire Stallion, Region 3</li>
+                    	<li>Unanimous Champion Region 1 Western Pleasure Junior Horse, Del Mar, CA, 2013</li>
 						<li>Scottsdale Reserve Champion Arabian Western Pleasure Junior Stallion, 2013</li>
 						<li>Scottsdale Arabian Western Pleasure Junior Horse - 5 Years of Age, Top 5 (3rd overall), 2013</li>
 						<li>Reserve Champion Two Year Old Colt at Region II, 2010</li>
@@ -107,7 +109,8 @@ include 'blocks/header-inner.php';
 					<ul class="info">
 					  <li>CA negative and SCID clear</li>
 					  <li>US and CAN Futurity nominated</li>
-					  <li>Scottsdale Signature nominated</li>
+					  <li>Scottsdale Signature Stallion</li>
+                      	<li> Silver Sire Stallion, Region 3</li>
 					  <li>In performance training with Culbreth Equine Training and Management</li>
 				  </ul>
 					
@@ -211,7 +214,8 @@ include 'blocks/header-inner.php';
 					<p class="title">
 					<span class="title">A Assad &quot;Rexx&quot;</span></p>
                     
-                    <ul class="info">
+                      <ul class="info">
+                   <li> Arabian Breeders World Cup, Top 5 (3rd), Las Vegas, NV, 2013</li>
 						<li>Scottsdale International Arabian Breeders Classic Yearling Colts, Top 10, 2013                    </li>
                     </ul>
                     <ul class="info">

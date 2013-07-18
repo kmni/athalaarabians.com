@@ -109,6 +109,7 @@ include 'blocks/header-inner.php';
 					  <li>CA negative and SCID clear</li>
 					  <li>US and CAN Futurity nominated</li>
 					  <li>Scottsdale Signature Stallion</li>
+                      	<li> Silver Sire Stallion, Region 3</li>
 					  <li>In performance training with Culbreth Equine Training and Management</li>
 				  </ul>
 					
@@ -167,6 +168,21 @@ include 'blocks/header-inner.php';
 						</div> 
 						<div id="thumbs-ill" class="navigation"> 
 							<ul class="thumbs noscript"> 
+                            
+                            <li> 
+			<a class="thumb" href="horses/a-illuminatus/photos/illuminatus_12.jpg" title="Kuy Shaihnya"><img src="horses/a-illuminatus/photos/thumbs/illuminatus_13_sm.jpg" alt="A Illuminatus" /></a> 
+							  </li>
+                              
+                              <li> 
+			<a class="thumb" href="horses/a-illuminatus/photos/illuminatus_13.jpg" title="Kuy Shaihnya"><img src="horses/a-illuminatus/photos/thumbs/illuminatus_13_sm.jpg" alt="A Illuminatus" /></a> 
+							  </li>
+                              
+                              <li> 
+			<a class="thumb" href="horses/a-illuminatus/photos/illuminatus_14.jpg" title="Kuy Shaihnya"><img src="horses/a-illuminatus/photos/thumbs/illuminatus_14_sm.jpg" alt="A Illuminatus" /></a> 
+							  </li>
+                            
+                            
+                            
 								<li> 
 									<a class="thumb" href="horses/a-illuminatus/photos/a-illuminatus09.jpg" title="Kuy Shaihnya"><img src="horses/a-illuminatus/photos/thumbs/a-illuminatus-04.jpg" width="106" height="85" alt="A Illuminatus" /></a> 
 							  </li>

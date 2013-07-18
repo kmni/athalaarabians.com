@@ -803,7 +803,7 @@ include 'blocks/header-inner.php';
 						<span class="title">ESA Aminaah</span>Straight Egyptian Bay Mare, 2008</p>
 					
 					<ul class="info">
-					  <li>Egyptian Event, Champion, Futurity Finals Straight Egyptian Yearling Fillies, 2009</
+					  <li>Egyptian Event, Champion, Futurity Finals Straight Egyptian Yearling Fillies, 2009</li>
 <li>In foal to A Illuminatus, 2014 </li>
 				  </ul>
 					<p class="links"><a href="https://vimeo.com/26602585" target="_blank">View Video</a></p>
@@ -889,7 +889,7 @@ include 'blocks/header-inner.php';
                     
 						<!-- End Minimal Gallery Html Containers --> 
 					<p class="title">
-						<span class="title">Canna Lilly (Pending)</span>
+						<span class="title">A Canna Lilly (Pending)</span>
 						Bay Filly 2013
 					</p>
 					<p>&nbsp;</p>
