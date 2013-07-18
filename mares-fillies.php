@@ -846,6 +846,94 @@ include 'blocks/header-inner.php';
 				</div><!-- END DESPERADOS VALENTINE -->
 				<hr />
                 
+                
+                
+                  <!-- BEGIN Canna Lilly -->
+  <div id="listing-cannalilly" class="listing">
+					<div id="show-cannalilly" class="right-area">
+       		<!-- Start Minimal Gallery Html Containers --> 
+						<div id="gallery" class="content"> 
+							<div id="controls-cannalilly" class="controls"></div> 
+							<div class="slideshow-container"> 
+								<div id="loading" class="loader"></div> 
+								<div id="slideshow-cannalilly" class="slideshow"></div> 
+							</div> 
+						</div> 
+						<div id="thumbs-cannalilly" class="navigation"> 
+							<ul class="thumbs noscript"> 
+								<li>
+									<a class="thumb" href="horses/canna-lilly/photos/canna-lilly01.jpg" title="Canna Lilly">
+										<img src="horses/canna-lilly/photos/thumbs/canna-lilly-01.jpg" width="95" alt="Canna Lilly" />
+									</a> 
+								</li>
+								<li>
+									<a class="thumb" href="horses/canna-lilly/photos/canna-lilly02.jpg" title="Canna Lilly">
+										<img src="horses/canna-lilly/photos/thumbs/canna-lilly-02.jpg" width="95"  alt="Canna Lilly" />
+									</a> 
+								</li>
+								<li>
+									<a class="thumb" href="horses/canna-lilly/photos/canna-lilly03.jpg" title="Canna Lily">
+										<img src="horses/canna-lilly/photos/thumbs/canna-lilly-03.jpg" width="95"  alt="Canna Lily" />
+									</a> 
+								</li>
+								<li> 
+									<a class="thumb" href="horses/canna-lilly/photos/canna-lilly04.jpg" title="Canna Lily">
+									<img src="horses/canna-lilly/photos/thumbs/canna-lilly-04.jpg" width="95" alt="Canna Lilly">
+									</a> 
+								</li> 
+								
+								
+							</ul> 
+						</div>
+					</div>
+                    
+						<!-- End Minimal Gallery Html Containers --> 
+					<p class="title">
+						<span class="title">Canna Lilly (Pending)</span>
+						Bay Filly 2013
+					</p>
+					<p>&nbsp;</p>
+				 
+		<table class="pedigree">
+            <tr>
+              <td rowspan="4">Marajj</td>
+              <td rowspan="2" class="gp">Marwan Al Shaqab</td>
+              <td class="ggp">Gazal Al Shaqab</td>
+            </tr>
+            <tr>
+              <td class="ggp dam">Little Liza Fame</td>
+            </tr>
+            <tr>
+              <td rowspan="2" class="gp dam">RGA Kouress</td>
+              <td class="ggp">Louvay Bey</td>
+            </tr>
+            <tr>
+              <td class="ggp dam">Angophora</td>
+            </tr>
+            <tr>
+              <td rowspan="4">Cannette</td>
+              <td rowspan="2" class="gp">Raisin Thee Cane</td>
+              <td class="ggp">Thee Desperado</td>
+            </tr>
+            <tr>
+              <td class="ggp dam">Adeenah</td>
+            </tr>
+            <tr>
+              <td rowspan="2" class="gp dam">SF Garden Party</td>
+              <td class="ggp">Sams Ferrari</td>
+            </tr>
+            <tr>
+              <td class="ggp dam">Donna Feronita</td>
+            </tr>
+          </table>
+					
+<p class="cleartest"></p>
+					
+				</div><!-- END Canna Lily -->
+                
+                
+                
+                
                 <!-- BEGIN DESPERADOS VALENTINE -->
 				<div id="listing-desperados" class="listing">
 					<div id="show-desperados" class="right-area">

@@ -362,7 +362,81 @@ include 'blocks/header-inner.php';
                 
                 
 
-				
+				<!-- BEGIN Mack -->
+				<div id="listing-mack" class="listing">
+					<div id="show-mack" class="right-area">
+       		<!-- Start Minimal Gallery Html Containers --> 
+						<div id="gallery" class="content"> 
+							<div id="controls-mack" class="controls"></div> 
+							<div class="slideshow-container"> 
+								<div id="loading" class="loader"></div> 
+								<div id="slideshow-mack" class="slideshow"></div> 
+							</div> 
+						</div> 
+						<div id="thumbs-mack" class="navigation"> 
+							<ul class="thumbs noscript"> 
+								<li> 
+									<a class="thumb" href="horses/mack/photos/mack-01.jpg" title="Title #0"><img src="horses/mack/photos/thumbs/mack-01-sm.jpg" height="100" alt="Mack" /></a> 
+								</li>
+                                <li> 
+									<a class="thumb" href="horses/mack/photos/mack-02.jpg" title="Title #0"><img src="horses/mack/photos/thumbs/mack-02-sm.jpg" width="100" alt="Mack" /></a> 
+								</li>
+								<li>
+									<a class="thumb" href="horses/mack/photos/mack-03.jpg" title="Title #1"><img src="horses/mack/photos/thumbs/mack-03-sm.jpg" width="100" alt="Mack" /></a> 
+								</li>
+								<li>
+									<a class="thumb" href="horses/mack/photos/mack-04.jpg" title="Title #2"><img src="horses/mack/photos/thumbs/mack-04-sm.jpg" width="100"  alt="Mack" /></a> 
+								</li>
+								
+                                
+						</ul> 
+						</div>
+				  </div>
+						<!-- End Minimal Gallery Html Containers --> 
+					<p class="title">
+					<span class="title">"Mack"
+                    </span>Grey Straight Egyptian Colt 2013</p>
+                    
+                 
+					
+          <table class="pedigree">
+            <tr>
+              <td rowspan="4">Makhnificent KA</td>
+              <td rowspan="2" class="gp">Makhsous</td>
+              <td class="ggp">Sultann</td>
+            </tr>
+            <tr>
+              <td class="ggp dam">Nabda</td>
+            </tr>
+            <tr>
+              <td rowspan="2" class="gp dam">Star Bint Hafiza</td>
+              <td class="ggp">IBM Dahmahn</td>
+            </tr>
+            <tr>
+              <td class="ggp dam">AS Amiri Fayrouz</td>
+            </tr>
+            <tr>
+              <td rowspan="4">Kuy Shaihnya</td>
+              <td rowspan="2" class="gp">AK Shaikh</td>
+              <td class="ggp">Shaikh Al Badi</td>
+            </tr>
+            <tr>
+              <td class="ggp dam">AK Kantaara</td>
+            </tr>
+            <tr>
+              <td rowspan="2" class="gp dam">DB NA Seema</td>
+              <td class="ggp">Nabiel</td>
+            </tr>
+            <tr>
+              <td class="ggp dam">Ansata Salome</td>
+            </tr>
+          </table>
+					
+					<p class="cleartest"></p>
+					
+	  </div>
+				<!-- END Mack -->
+
                 
                 
                 
