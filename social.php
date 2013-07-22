@@ -10,6 +10,7 @@ include 'blocks/header-inner.php';
     <li>Loading…</li>
   </ul>
   <script id="facebook_template" type="text/x-jquery-tmpl">
+    {{if type != "status" || typeof message != "undefined" || typeof caption != "undefined"}}
     <li>
       <div class="header">
         <a href="http://www.facebook.com/profile.php?id=${from.id}" target="_blank"><img alt="picture" src="https://graph.facebook.com/${from.id}/picture">
@@ -47,6 +48,7 @@ include 'blocks/header-inner.php';
       {{/if}}
       {{/if}}
     </li>
+    {{/if}}
   </script>
   <script id="facebook_album_template" type="text/x-jquery-tmpl">
     {{if type != "friends_walls"}}
