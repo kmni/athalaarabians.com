@@ -1,4 +1,5 @@
 <?php
+	define(SERVER_URL, 'http://'.$_SERVER['HTTP_HOST']);
 // We include the header and footer only if X_REQUESTED_WITH header isn't set
 if ( !$_SERVER['HTTP_X_REQUESTED_WITH'] ):
 ?><!doctype html>
@@ -35,17 +36,20 @@ if ( !$_SERVER['HTTP_X_REQUESTED_WITH'] ):
   <!--[if IE 7]><link rel="stylesheet" href="css/ie7.css"><link rel="stylesheet" href="../css/ie7.css"><link rel="stylesheet" href="../../ie7.css"><![endif]-->
   <!--[if IE 6]><link rel="stylesheet" href="css/ie6.css"><link rel="stylesheet" href="../css/ie6.css"><link rel="stylesheet" href="../../ie6.css"><![endif]-->
   <link rel="stylesheet" href="social/css/social.css" />
-	<script src="js/jquery.min.js"></script>
+  	<script src="js/jquery.min.js"></script>
 	<script src="js/ajaxer.min.js"></script>
 	<script src="js/jquery.galleriffic.js"></script>
 	<script src="js/jquery.autolink.js"></script>
 	<script src="js/jquery.timeago.js"></script>
 	<script src="js/jquery.tmpl.js"></script>
 	<script src="js/twitter-text.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/jquery.imagesloaded.min.js"></script>
 	<script src="js/social.js"></script>
 	<script src="js/jquery.jplayer.min.js"></script>
 	<script src="js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 	<script src="js/jquery.easing-1.3.pack.js"></script>
+	<script src="js/3lancers.js"></script>
 	<script>
 	$(document).ready(function(){ // function called when DOM is ready
 		$('#nav').RegisterAjaxer($('#inner-content'), true);
@@ -246,79 +250,71 @@ $(document).ready(function(){
 
 </head>
 <body id="home">
-<div id="header">
-	<div id="header-box">
-		<a id="logo"></a>
-		<div id="menu">
-		<ul id="nav">
-			<li><a id="menu-links" href="links.php">Links</a></li>
-			<li><a id="menu-contact" href="contact.php">Contact</a></li>
-<!-- 			<li><a id="menu-news" href="news.php">News</a></li> -->
-			<li><a id="menu-news" href="social.php">Social Media</a></li>
-			<li><a id="menu-sales" href="sales.php">Sales</a></li>
-			<li><a id="menu-mares-fillies" href="mares-fillies.php">Mares/Fillies</a></li>
-			<li><a id="menu-stallions-colts" href="stallions-colts.php">Stallions/Colts</a></li>
-			<li><a id="menu-home" href="index.php">Home</a></li>
-		</ul>
-		</div>
-		<div id="music">
-		</div>
-	</div>
-</div>
-<div id="sub-header">
-	<div id="sub-header-line-left">
-	</div>
-	<div id="sub-header-line-right">
-	</div>
-  <div id="player-holder">
-<div id="jquery_jplayer_1" class="jp-player"></div> 
+	<div id="header">
+		<div id="header-box">
+			<a href="<?php echo SERVER_URL;?>" id="logo" title="Athala Arabians, A Straight Egyptian Horse Breeding Farm In N. Scottsdale"></a>
+			<div id="menu">
+				<ul id="nav">
+					<li><a id="menu-links" href="links.php">Links</a></li>
+					<li><a id="menu-contact" href="contact.php">Contact</a></li>
+		<!-- 			<li><a id="menu-news" href="news.php">News</a></li> -->
+					<li><a id="menu-news" href="social.php">Social Media</a></li>
+					<li><a id="menu-sales" href="sales.php">Sales</a></li>
+					<li><a id="menu-mares-fillies" href="mares-fillies.php">Mares/Fillies</a></li>
+					<li><a id="menu-stallions-colts" href="stallions-colts.php">Stallions/Colts</a></li>
+					<li><a id="menu-home" href="index.php">Home</a></li>
+				</ul>
+			</div> <!--// #menu -->
+			<div id="music"></div>
+		</div> <!--// #header-box -->
+	</div> <!--// #header -->
+	<div id="sub-header">
+		<div id="sub-header-line-left"></div>
+		<div id="sub-header-line-right"></div>
+		<div id="player-holder">
+			<div id="jquery_jplayer_1" class="jp-player"></div> 
+			<div class="jp-audio">
+			    <div class="jp-type-playlist">
+			        <div id="jp_interface_1" class="jp-interface">
+			            <ul class="jp-controls">
+			                <li><a href="#" class="jp-play" tabindex="1">play</a></li>
+			                <li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
+			                <li><a href="#" class="jp-stop" tabindex="1">stop</a></li>
+			                <li><a href="#" class="jp-mute" tabindex="1">mute</a></li>
+			                <li><a href="#" class="jp-unmute" tabindex="1">unmute</a></li>
 
-<div class="jp-audio">
-    <div class="jp-type-playlist">
+			                <li><a href="#" class="jp-previous" tabindex="1">previous</a></li>
+			                <li><a href="#" class="jp-next" tabindex="1">next</a></li>
+			            </ul>
+			            <div class="jp-progress">
+			                <div class="jp-seek-bar">
+			                    <div class="jp-play-bar"></div>
+			                </div>
+			            </div>
 
-        <div id="jp_interface_1" class="jp-interface">
-            <ul class="jp-controls">
-                <li><a href="#" class="jp-play" tabindex="1">play</a></li>
-                <li><a href="#" class="jp-pause" tabindex="1">pause</a></li>
-                <li><a href="#" class="jp-stop" tabindex="1">stop</a></li>
-                <li><a href="#" class="jp-mute" tabindex="1">mute</a></li>
-                <li><a href="#" class="jp-unmute" tabindex="1">unmute</a></li>
-
-                <li><a href="#" class="jp-previous" tabindex="1">previous</a></li>
-                <li><a href="#" class="jp-next" tabindex="1">next</a></li>
-            </ul>
-            <div class="jp-progress">
-                <div class="jp-seek-bar">
-                    <div class="jp-play-bar"></div>
-                </div>
-            </div>
-
-            <div class="jp-volume-bar">
-                <div class="jp-volume-bar-value"></div>
-            </div>
-            <div class="jp-current-time"></div>
-            <div class="jp-duration"></div>
-        </div>
-        <div id="jp_playlist_1" class="jp-playlist">
-            <ul>
-                <!-- The method Playlist.displayPlaylist() uses this unordered list -->
-
-                <li></li>
-            </ul>
-        </div>
-    </div>
-</div>
-	</div><!-- end div#player-holder -->
-	<a href='#' class='basic'>
-		<h1>Athala Arabians</h1>
-	</a>
-</div>
+			            <div class="jp-volume-bar">
+			                <div class="jp-volume-bar-value"></div>
+			            </div>
+			            <div class="jp-current-time"></div>
+			            <div class="jp-duration"></div>
+			        </div> <!--// #jp_interface_1 -->
+			        <div id="jp_playlist_1" class="jp-playlist">
+			        	<!-- The method Playlist.displayPlaylist() uses this unordered list -->
+			            <ul>
+			                <li></li>
+			            </ul>
+			        </div>
+			    </div>
+			</div> <!--// #jp-audio -->
+		</div><!--// #player-holder -->
+		<h1><a href="<?php echo SERVER_URL;?>" class="basic" title="Athala Arabians, A Straight Egyptian Horse Breeding Farm In N. Scottsdale">Athala Arabians</a></h1>
+	</div> <!--// #sub-header -->
     <div id="content">
-			<!-- The loading bar we will show. In css we set it initially to invisible -->
-			<div id="loading"><img src="images/ajax-loader.gif" />LOADING...</div>
-        <div id="inner-content">
-	<?php
-	// For the example we want to reload this container, too
-	// so we exclude it from the IF statement
-	endif;
-	?>
+		<!-- The loading bar we will show. In css we set it initially to invisible -->
+		<div id="loading"><img src="images/ajax-loader.gif" />LOADING...</div>
+		<div id="inner-content">
+<?php
+// For the example we want to reload this container, too
+// so we exclude it from the IF statement
+endif;
+?>

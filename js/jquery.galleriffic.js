@@ -941,7 +941,7 @@
 						gallery.next();
 						e.preventDefault();
 						break;
-					case 33: // Page Up
+/*					case 33: // Page Up
 						gallery.previousPage();
 						e.preventDefault();
 						break;
@@ -957,6 +957,7 @@
 						gallery.gotoIndex(0);
 						e.preventDefault();
 						break;
+*/
 					case 37: // left arrow
 						gallery.previous();
 						e.preventDefault();

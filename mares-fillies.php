@@ -8,11 +8,11 @@ include 'blocks/header-inner.php';
 						<div id="gallery" class="content"> 
 							<div id="controls-shaihnya" class="controls"></div> 
 							<div class="slideshow-container"> 
-								<div id="loading" class="loader"></div> 
+								<div id="loading" class="loader"></div>
 								<div id="slideshow-shaihnya" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-shaihnya" class="navigation"> 
+						<div id="shaihnya" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/kuy-shaihnya/photos/kuy-shaihnya01.jpg" title="Kuy Shaihnya">
@@ -66,7 +66,7 @@ include 'blocks/header-inner.php';
 									</a> 
 								</li>
                                 <li>
-								<a class="thumb" href="horses/kuy-shaihnya/photos/shai03.jpg" title="Kuy Shaihnya"><img src="horses/kuy-shaihnya/photos/thumbs/shai-03.jpg" width="57" height="85" alt="Kuy Shaihnya" /></a>
+									<a class="thumb" href="horses/kuy-shaihnya/photos/shai03.jpg" title="Kuy Shaihnya"><img src="horses/kuy-shaihnya/photos/thumbs/shai-03.jpg" width="57" height="85" alt="Kuy Shaihnya" /></a>
                                 </li>
 								<li>
 									<a class="thumb" href="horses/kuy-shaihnya/photos/shai09.jpg" title="Kuy Shaihnya">
@@ -96,8 +96,7 @@ include 'blocks/header-inner.php';
 										<img src="horses/kuy-shaihnya/photos/thumbs/shai-14.jpg" width="128" height="85" alt="Kuy Shaihnya" />
 									</a> 
 								</li>
-								<li></li>
-						</ul> 
+							</ul> 
 						</div>
 						</div>
 						<!-- End Minimal Gallery Html Containers --> 
@@ -163,7 +162,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-jada" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-jada" class="navigation"> 
+						<div id="jada" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/jada-smf/photos/2012/jada1.jpg" title="Jada SMF">
@@ -269,12 +268,13 @@ include 'blocks/header-inner.php';
 					<div id="show-gemma" class="right-area">
        		<!-- Start Minimal Gallery Html Containers --> 
 						<div id="gallery" class="content">
+							<div id="controls-gemma" class="controls"></div> 
 							<div class="slideshow-container">
-								<div id="slideshow-gemma" class="slideshow">
-                                </div> 
+								<div id="loading" class="loader"></div> 
+								<div id="slideshow-gemma" class="slideshow"></div> 
 							</div> 
 						</div>
-                        						<div id="thumbs-gemma" class="navigation"> 
+                        <div id="gemma" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/cedars-jazzy-gemma/photos/gemma1.jpg" title="Cedars Jazzy Gemma SMF">
@@ -371,7 +371,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-cannette" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-cannette" class="navigation"> 
+						<div id="cannette" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/cannette/photos/cannette04.jpg" title="Cannette">
@@ -485,7 +485,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-samedi" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-samedi" class="navigation"> 
+						<div id="samedi" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/cedars-samedi/photos/samedi1.jpg" title="Cedars Samedi">
@@ -583,7 +583,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-samia" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-samia" class="navigation"> 
+						<div id="samia" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/a-samia/photos/samia1.jpg" title="A Samia">
@@ -689,7 +689,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-shearee" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-shearee" class="navigation"> 
+						<div id="shearee" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/shearee/shearee1.jpg" title="Desperados Valentine">
@@ -782,7 +782,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-aminaah" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-aminaah" class="navigation"> 
+						<div id="aminaah" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/esa-aminaah/aminaah01.jpg" title="Aminaah">
@@ -859,7 +859,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-cannalilly" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-cannalilly" class="navigation"> 
+						<div id="cannalilly" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li>
 									<a class="thumb" href="horses/canna-lilly/photos/canna-lilly01.jpg" title="Canna Lilly">
@@ -932,7 +932,7 @@ include 'blocks/header-inner.php';
 				</div><!-- END Canna Lily -->
                 
                 
-                
+                <hr />
                 
                 <!-- BEGIN DESPERADOS VALENTINE -->
 				<div id="listing-desperados" class="listing">
@@ -945,7 +945,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-desperados" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-desperados" class="navigation"> 
+						<div id="desperados" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li>
 									<a class="thumb" href="horses/desperados-valentine/photos/desperados02.jpg" title="Desperados Valentine">
@@ -1036,84 +1036,16 @@ include 'blocks/header-inner.php';
 				<hr />
                 
 
-				<hr />
-                
-                
-                
-
+				
 				  <script type="text/javascript"> 
 					// $('div.navigation').css({'width' : '300px', 'float' : 'left'}); 
 					$('div.content').css('display', 'block'); 
 
 					$(document).ready(function() {				
 						// Initialize Minimal Galleriffic Gallery
-						$('#thumbs-shearee').galleriffic({
-							imageContainerSel:      '#slideshow-shearee',
-							controlsContainerSel:   '#controls-shearee',
-							delay:                  6000,
-							autoStart:              true,
-						});
-						$('#thumbs-aminaah').galleriffic({
-							imageContainerSel:      '#slideshow-aminaah',
-							controlsContainerSel:   '#controls-aminaah',
-							delay:                  6000,
-							autoStart:              true,
-						});
-						$('#thumbs-gemma').galleriffic({
-							imageContainerSel:      '#slideshow-gemma',
-							controlsContainerSel:   '#controls-gemma',
-							delay:                  6000,
-							autoStart:              true,
-						});
-						$('#thumbs-shaihnya').galleriffic({
-							imageContainerSel:      '#slideshow-shaihnya',
-							controlsContainerSel:   '#controls-shaihnya',
-							delay:                  6000,
-							autoStart:              true,
-						});
-						$('#thumbs-jada').galleriffic({
-							imageContainerSel:      '#slideshow-jada',
-							controlsContainerSel:   '#controls-jada',
-							delay:                  6500,
-							autoStart:              true,
-						});
-						$('#thumbs-desperados').galleriffic({
-							imageContainerSel:      '#slideshow-desperados',
-							controlsContainerSel:   '#controls-desperados',
-							delay:                  5500,
-							autoStart:              true,
-						});
-							$('#thumbs-cannalilly').galleriffic({
-							imageContainerSel:      '#slideshow-cannalilly',
-							controlsContainerSel:   '#controls-cannalilly',
-							delay:                  5500,
-							autoStart:              true,
-						});
-						$('#thumbs-cannette').galleriffic({
-							imageContainerSel:      '#slideshow-cannette',
-							controlsContainerSel:   '#controls-cannette',
-							delay:                  6000,
-							autoStart:              true,
-						});
-						$('#thumbs-samedi').galleriffic({
-							imageContainerSel:      '#slideshow-samedi',
-							controlsContainerSel:   '#controls-samedi',
-							delay:                  6500,
-							autoStart:              true,
-						});
-						$('#thumbs-samia').galleriffic({
-							imageContainerSel:      '#slideshow-samia',
-							controlsContainerSel:   '#controls-samia',
-							delay:                  5500,
-							autoStart:              true,
-						});
-						$("a.pedigree").fancybox({
-								'transitionIn'	:	'elastic',
-								'transitionOut'	:	'elastic',
-								'speedIn'		:	600, 
-								'speedOut'		:	200,
-								'titleShow' : false,
-							});
+						hju.gallery('.galleriffic');
+						// Initialize FancyBox
+						hju.fancy('a.pedigree');
 					});
 				</script>
 				<?php

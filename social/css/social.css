@@ -1,5 +1,29 @@
 /* Jamie did this as a guide, it should be customized on a site-by-site basis */
 
+ul#facebook {display: block; float: left; width: 447px;list-style-type: none; padding: 0; margin: 0;}
+#facebook li {display: block; border: 1px solid #AD560A; padding: 5px; margin: 5px 0;}
+#facebook li:hover {border-color: #D38339;}
+#facebook a {text-decoration: underline;}
+#facebook .header {font: normal 12px/16px Verdana, Helvetica;}
+#facebook a.image {float: left; text-decoration: none; margin: 0 10px 10px 0;}
+#facebook .header a.author {font: normal 12px/16px Verdana, Helvetica; text-decoration: underline; margin: 0;}
+#facebook .header abbr {font: normal 10px/16px Verdana, Helvetica; padding: 0; margin: 0;}
+#facebook li p {font-size: 13px; line-height: 16px; padding: 0; margin: 0 0 5px 0;}
+#facebook div.link {font-size: 13px; line-height: 16px; padding: 5px 0;}
+#facebook div.picture {text-align: right;}
+
+ul#facebook_albums {float: right; width: 452px; list-style-type: none; padding: 0; margin: 0;}
+#facebook_albums li {display: block; float: left; width: 214px; font-size: 13px; line-height: 16px; text-align: center; border: 1px solid transparent; padding: 5px;}
+#facebook_albums li:hover {border: 1px solid #D38339;}
+#facebook_albums a {text-decoration: underline;}
+#facebook_albums a.image {display: block; text-decoration: none;}
+
+.clearfix:before, .clearfix:after {content: " "; display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+.cleaner {clear:both; line-height:0px; font-size:0px !important}
+
+/*
 #facebook p {
     padding-right: 10px;
     width: 678px;
@@ -36,3 +60,4 @@
 #facebook_albums a {
     font-weight: bold;
 }
+*/

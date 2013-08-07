@@ -12,7 +12,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-canen" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-canen" class="navigation"> 
+						<div id="canen" class="galleriffic navigation" data-delay="6000" data-auto="true"> 
 							<ul class="thumbs noscript"> 
 								
                                 <li>
@@ -166,7 +166,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-ill" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-ill" class="navigation"> 
+						<div id="ill" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
                             
                             <li> 
@@ -281,7 +281,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-rexx" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-rexx" class="navigation"> 
+						<div id="rexx" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/rexx/a-assad06.jpg" title="Title #0"><img src="horses/rexx/thumbnails/a-assad-06.jpg" height="85" alt="Jada SMF" /></a> 
@@ -389,7 +389,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-mack" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-mack" class="navigation"> 
+						<div id="mack" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/mack/photos/mack-01.jpg" title="Title #0"><img src="horses/mack/photos/thumbs/mack-01-sm.jpg" height="100" alt="Mack" /></a> 
@@ -467,7 +467,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-raisin" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-raisin" class="navigation"> 
+						<div id="raisin" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/raisin-thee-cane/photos/cane-01.jpg" title="Title #0"><img src="horses/raisin-thee-cane/photos/thumbs/cane-01.jpg" width="100" height="85" alt="Jada SMF" /></a> 
@@ -552,46 +552,11 @@ include 'blocks/header-inner.php';
 
 				$(document).ready(function() {				
 					// Initialize Minimal Galleriffic Gallery
-
-					$('#thumbs-rexx').galleriffic({
-						imageContainerSel:      '#slideshow-rexx',
-						controlsContainerSel:   '#controls-rexx',
-						delay:                  6000,
-						autoStart:              true,
-					});
-					$('#thumbs-raisin').galleriffic({
-						imageContainerSel:      '#slideshow-raisin',
-						controlsContainerSel:   '#controls-raisin',
-						delay:                  6000,
-						autoStart:              true,
-					});
-					$('#thumbs-canen').galleriffic({
-						imageContainerSel:      '#slideshow-canen',
-						controlsContainerSel:   '#controls-canen',
-						delay:                  6500,
-						autoStart:              true,
-					});
-					$('#thumbs-ill').galleriffic({
-						imageContainerSel:      '#slideshow-ill',
-						controlsContainerSel:   '#controls-ill',
-						delay:                  6000,
-						autoStart:              true,
-					});			
-						$('#thumbs-mack').galleriffic({
-						imageContainerSel:      '#slideshow-mack',
-						controlsContainerSel:   '#controls-mack',
-						delay:                  6000,
-						autoStart:              true,
-					});
-					$("a.pedigree").fancybox({
-							'transitionIn'	:	'elastic',
-							'transitionOut'	:	'elastic',
-							'speedIn'		:	600, 
-							'speedOut'		:	200,
-							'titleShow' : false
-						});
+					hju.gallery('.galleriffic');
+					// Initialize FancyBox
+					hju.fancy('a.pedigree');
 				});
-			</script> 
-			<?php
-			include 'blocks/footer-inner.php';
-			?>
+			</script>
+<?php
+	include 'blocks/footer-inner.php';
+?>

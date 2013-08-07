@@ -13,7 +13,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-canen" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-canen" class="navigation"> 
+						<div id="canen" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								
                                 <li>
@@ -168,7 +168,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-rexx" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-rexx" class="navigation"> 
+						<div id="rexx" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/rexx/a-assad06.jpg" title="Title #0"><img src="horses/rexx/thumbnails/a-assad-06.jpg" height="85" alt="Jada SMF" /></a> 
@@ -273,7 +273,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-samia" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-samia" class="navigation"> 
+						<div id="samia" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/a-samia/photos/samia1.jpg" title="A Samia">
@@ -378,7 +378,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-ledgend" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-ledgend" class="navigation"> 
+						<div id="ledgend" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								
 								<li> 
@@ -512,7 +512,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-desha-mar" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-desha-mar" class="navigation"> 
+						<div id="desha-mar" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/desha-mar-ci/photos/desha-mar-ci01.jpg" title="Desha Mar Ci">
@@ -611,7 +611,7 @@ include 'blocks/header-inner.php';
 								<div id="slideshow-pennelope" class="slideshow"></div> 
 							</div> 
 						</div> 
-						<div id="thumbs-pennelope" class="navigation"> 
+						<div id="pennelope" class="galleriffic navigation"> 
 							<ul class="thumbs noscript"> 
 								<li> 
 									<a class="thumb" href="horses/a-pennelope/photos/a-pennelope01.jpg" title="A Pennelope">
@@ -679,56 +679,16 @@ include 'blocks/header-inner.php';
 
 				
 			<script type="text/javascript"> 
-					// $('div.navigation').css({'width' : '300px', 'float' : 'left'}); 
-					$('div.content').css('display', 'block'); 
+				// $('div.navigation').css({'width' : '300px', 'float' : 'left'}); 
+				$('div.content').css('display', 'block'); 
 
-					$(document).ready(function() {				
-						// Initialize Minimal Galleriffic Gallery
-						$('#thumbs-rexx').galleriffic({
-							imageContainerSel:      '#slideshow-rexx',
-							controlsContainerSel:   '#controls-rexx',
-							delay:                  6000,
-							autoStart:              true,
-						});						
-						$('#thumbs-samia').galleriffic({
-							imageContainerSel:      '#slideshow-samia',
-							controlsContainerSel:   '#controls-samia',
-							delay:                  6000,
-							autoStart:              true,
-						});						
-						$('#thumbs-desha-mar').galleriffic({
-							imageContainerSel:      '#slideshow-desha-mar',
-							controlsContainerSel:   '#controls-desha-mar',
-							delay:                  6000,
-							autoStart:              true,
-						});						
-						$('#thumbs-pennelope').galleriffic({
-							imageContainerSel:      '#slideshow-pennelope',
-							controlsContainerSel:   '#controls-pennelope',
-							delay:                  6000,
-							autoStart:              true,
-						});
-						$('#thumbs-canen').galleriffic({
-							imageContainerSel:      '#slideshow-canen',
-							controlsContainerSel:   '#controls-canen',
-							delay:                  6500,
-							autoStart:              true,
-						});
-						$('#thumbs-ledgend').galleriffic({
-							imageContainerSel:      '#slideshow-ledgend',
-							controlsContainerSel:   '#controls-ledgend',
-							delay:                  5500,
-							autoStart:              true,
-						});
-						$("a.pedigree").fancybox({
-								'transitionIn'	:	'elastic',
-								'transitionOut'	:	'elastic',
-								'speedIn'		:	600, 
-								'speedOut'		:	200,
-								'titleShow' : false
-							});
-					});
-				</script>
-				<?php
-				include 'blocks/footer-inner.php';
-				?>
+				$(document).ready(function() {				
+					// Initialize Minimal Galleriffic Gallery
+					hju.gallery('.galleriffic');
+					// Initialize FancyBox
+					hju.fancy('a.pedigree');
+				});
+			</script>
+<?php
+	include 'blocks/footer-inner.php';
+?>
