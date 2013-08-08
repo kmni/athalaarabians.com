@@ -26,7 +26,7 @@ if ( !$_SERVER['HTTP_X_REQUESTED_WITH'] ):
 	<meta name="description" content="Athala Arabians is an arabian horse farm located in North Scottsdale, Arizona that breeds champion straight egyptian arabian horses. The farm is run by singer-songwriter Athala King.">
 	<meta name="keywords" content="arabian stallions, horse for sale, equestrian, arab horses, egyptian arabian horses, arabian horse farms in arizona, horse farm Scottsdale">
 	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--meta name="viewport" content="width=device-width, initial-scale=1.0"-->
 	<link type="text/plain" rel="author" href="/humans.txt" />
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
