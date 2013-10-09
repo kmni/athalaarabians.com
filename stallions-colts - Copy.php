@@ -96,7 +96,7 @@ include 'blocks/header-inner.php';
 						</ul> 
 						</div>
 				  </div>
-						<!-- End Minimal Gallery Html Containers -->  
+						<!-- End Minimal Gallery Html Containers --> 
 					<p class="title">
 						<span class="title">A Canen</span>
 						Bay Stallion 2008

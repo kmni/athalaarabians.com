@@ -87,6 +87,11 @@ include 'blocks/header-inner.php';
 										<img src="horses/a-canen/photos/thumbs/a-canen-12.jpg" width="72" height="85" alt="Jada SMF" />
 									</a> 
 								</li>
+								<li>
+									<a class="thumb" href="horses/a-canen/photos/a-canen-17.jpg" title="A Canen">
+										<img src="horses/a-canen/photos/thumbs/a-canen-17.jpg" width="106" height="85" alt="Jada SMF" />
+									</a> 
+								</li>
                                 	
                                 	
 						</ul> 
