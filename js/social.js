@@ -12,17 +12,7 @@ Social = {
     });
     url = "https://graph.facebook.com/" + id + "/albums/?callback=?";
     $.getJSON(url, params, function(data) {
-      $("#facebook_albums").html($.tmpl($("#facebook_album_template"), data.data));
-      var $fb_albums = $('#facebook_albums');
-      $fb_albums.imagesLoaded(function(){
-        // initialize Masonry
-        $fb_albums.masonry({
-          itemSelector: 'li',
-          isFitWidth:   false,
-          singleMode:   false,
-          isAnimated:   false
-        });
-      });
+      return $("#facebook_albums").html($.tmpl($("#facebook_album_template"), data.data));
     });
   },
 

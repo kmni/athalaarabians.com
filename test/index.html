@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Testing</title>
+</head>
+
+<body>
+<div class="gallery-wrap">
+    <div class="gallery galleryid-45" id="gallery-1">
+        <dl class="gallery-item">
+            <dt class="gallery-icon"> <a href="http://i.imgur.com/0B7q0.jpg"><img height="66" width="67" class="attachment-thumbnail" src="http://i.imgur.com/0B7q0b.jpg"></a> </dt>
+        </dl>
+        <dl class="gallery-item">
+            <dt class="gallery-icon"> <a href="http://i.imgur.com/G3moB.jpg"><img height="66" width="67" class="attachment-thumbnail" src="http://i.imgur.com/G3moBb.jpg"></a> </dt>
+        </dl>
+        <dl class="gallery-item">
+            <dt class="gallery-icon"> <a href="http://i.imgur.com/TeXaR.jpg"><img height="66" width="67" class="attachment-thumbnail" src="http://i.imgur.com/TeXaRb.jpg"></a> </dt>
+        </dl>
+        <br style="clear: both">
+    </div>
+</div>
+<div id="imageBox">&nbsp;</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(".gallery-item a").click(function(evt) {
+    evt.preventDefault();
+    $("#imageBox").empty().append(
+        $("<img>", { src: this.href})
+    );
+});
+</script>
+
+</body>
+</html>

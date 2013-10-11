@@ -22,10 +22,10 @@ var hju	= {
 			$(selector).fancybox({
 				'transitionIn'	:	'elastic',
 				'transitionOut'	:	'elastic',
-				'speedIn'		:	600, 
+				'speedIn'		:	600,
 				'speedOut'		:	200,
 				'titleShow'		:	false
 			});
 		}
-	},
+	}
 };
