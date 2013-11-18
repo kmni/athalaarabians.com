@@ -119,7 +119,7 @@ include 'blocks/header-inner.php';
 				  </ul>
 					
 					<p class="links">
-						<a href="http://www.youtube.com/watch?v=b_tD2oFja80" target="_blank" title="Video of A Canen">Video</a> | <a href="horses/a-canen/pedigree.html" class="pedigree" title="Pedigree Research for A Canen">Pedigree Research</a>
+						<a href="https://vimeo.com/76630489" target="_blank" title="Video of A Canen">Video</a> | <a href="horses/a-canen/pedigree.html" class="pedigree" title="Pedigree Research for A Canen">Pedigree Research</a>
 					| <a href="pdf/2013/a-canen-breeding-contract.pdf">Breeding Contract</a></p>
 					
           <table class="pedigree">
